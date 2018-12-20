@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/devstuff/precache-manifest.9517fae63ee3ff5932d9b1a5830ff174.js"
+  "/corbinervin/devstuff/precache-manifest.f4c317dbae3a250972c24026f5fa1ba6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/devstuff/index.html", {
+workbox.routing.registerNavigationRoute("/corbinervin/devstuff/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
